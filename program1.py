@@ -79,6 +79,28 @@ print(string_slicing[-8:-3]) # output: Birth
 """
 
 # Program 13 - String methods and operations (Strings are immutable)
-instrument = "Flute"
+instrument = "Fluteeeeee"
 print(instrument.upper())
 print(instrument.lower())
+print(instrument.rsplit('t')) # it removes the character mentioned from the right side
+print(instrument.replace('F','B'))
+print(instrument.capitalize())
+print(len(instrument))
+print(len(instrument.center(25)))
+print(instrument.count('e'))
+print(instrument.endswith('e'))
+print(instrument.endswith('eee',7,10))
+stationary = "glue is so sticky and works as a good adhesive"
+household = "     "
+print(stationary.find('is')) # gives the index of the first occurrence of the mentioned character
+print(stationary.index('is'))
+print(household.isalnum()) # checks if the string has only alphabets and numbers
+print(household.isalpha()) # checks if the string has only alphabets
+print(household.islower()) # checks if the string has only lowercase letters
+print(household.isupper()) # checks if the string has only uppercase letters
+print(household.isspace()) # checks if the string has only spaces
+print(stationary.startswith('g')) # checks if the string starts with the mentioned character
+print(stationary.startswith('s',9,11)) # checks if the string starts with
+print(stationary.strip()) # removes the extra spaces in the starting and ending of the string
+print(stationary.swapcase()) # converts uppercase to lowercase and vice versa
+print(stationary.title()) # converts the first letter of each word to uppercase
