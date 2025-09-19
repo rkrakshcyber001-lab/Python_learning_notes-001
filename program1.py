@@ -76,7 +76,6 @@ print(string_slicing[:]) # prints the whole string
 print(string_slicing[0:len(string_slicing)-8])
 print(string_slicing[0:-8]) #negative slicing
 print(string_slicing[-8:-3]) # output: Birth
-"""
 
 # Program 13 - String methods and operations (Strings are immutable)
 instrument = "Fluteeeeee"
@@ -104,3 +103,13 @@ print(stationary.startswith('s',9,11)) # checks if the string starts with
 print(stationary.strip()) # removes the extra spaces in the starting and ending of the string
 print(stationary.swapcase()) # converts uppercase to lowercase and vice versa
 print(stationary.title()) # converts the first letter of each word to uppercase
+
+
+# Program 14 - if else condition
+age = int(input("enter your age:"))
+if age>=18:
+    print("you can vote")
+else:
+    print("you cannot vote")
+
+"""
